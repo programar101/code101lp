@@ -1,7 +1,7 @@
 import * as React from 'react';
 import heroImg from './heroImg.png';
 // eslint-disable-next-line
-import base from './../base.css';
+import base from './../../base.css';
 // eslint-disable-next-line
 import theme from './hero.css';
 
