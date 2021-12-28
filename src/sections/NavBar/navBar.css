@@ -1,0 +1,30 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-bottom: black;
+    border-top: var(--black);
+    border-style: solid;
+    border-width: 2px;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.navBarItems {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+a {
+    font-size: 3vh;
+}
+
+@media only screen and (max-width: 470px) {
+  /* For mobile phones: */
+  .navBarItems {
+       flex-direction: column;
+      -ms-flex-align: end;
+  }
+}
