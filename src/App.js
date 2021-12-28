@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Resumen from './Resumen/Resumen';
 import Hero from './sections/Hero/Hero';
 import NavBar from './sections/NavBar/NavBar';
 import Dinamica from './sections/Dinamica/Dinamica';
@@ -11,6 +12,7 @@ export default function App() {
             <NavBar/>
             <Hero/>
             <Dinamica/>
+            <Resumen/>
             <Syllabus/>
         </div>
     );

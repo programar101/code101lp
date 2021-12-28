@@ -1,0 +1,12 @@
+.resumen{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    background-color: #9e9db8;
+    font-size: 3vh;
+    font-family: Roboto, serif;
+    font-weight: bold;
+}
