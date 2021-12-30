@@ -6,7 +6,6 @@ import Tutor from './sections/Tutor/Tutor';
 import Ayudantes from './sections/Ayudantes/Ayudantes';
 
 
-
 export default function App() {
     return (
         <div >
