@@ -1,0 +1,42 @@
+.ayudantes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+}
+.titleBoxA {
+    text-align: center;
+    font-size: 3vh;
+    padding: 12px 0;
+    display: inline;
+}
+.imageBoxA {
+    width: 20vw;
+    height: auto;
+    border-radius: 25px;
+}
+
+.boxA {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+}
+
+.nameBoxA {
+    font-size: 3vh;
+    font-weight: bold;
+    padding: 12px 0;
+    text-align: left;
+}
+
+.descriptionBoxA {
+    font-size: 2.5vh;
+    width: 20vw;
+    text-align: justify;
+}

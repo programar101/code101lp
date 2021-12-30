@@ -1,0 +1,33 @@
+.tutor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titleBox {
+    text-align: center;
+    font-size: 3vh;
+    padding: 12px 0;
+}
+.imageBox {
+    width: 25vw;
+    height: auto;
+    border-radius: 25px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.nameBox{
+    font-size: 3vh;
+    font-weight: bold;
+    padding: 12px 0;
+    text-align: left;
+}
+
+.descriptionBox{
+    font-size: 2.5vh;
+    width: 25vw;
+    text-align: justify;
+}
