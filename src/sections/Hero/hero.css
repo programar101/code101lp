@@ -1,9 +1,8 @@
 
-.container {
+.heroContainer {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 100vw;
     background-color: var(--darkGreen);
     padding: 5vw 0;
 }
@@ -19,4 +18,17 @@
 .image {
     max-width: 1000px;
     min-width: 100px;
+}
+
+.ctaButton {
+    background-color: var(--accent);
+    padding: 10px;
+    border: var(--black) solid 1px;
+    text-align: center;
+}
+
+.leftContainer {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
 }
