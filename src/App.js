@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Hero from './sections/Hero/Hero';
 import NavBar from './sections/NavBar/NavBar';
+import Syllabus from './sections/Syllabus/Syllabus';
 
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
         <div >
             <NavBar/>
             <Hero/>
+            <Syllabus/>
         </div>
     );
 }
