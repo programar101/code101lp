@@ -1,9 +1,8 @@
 
-.container {
+.heroContainer {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 100vw;
     background-color: var(--darkGreen);
     padding: 5vw 0;
 }

@@ -3,6 +3,8 @@ import {AppBar, Box, Button, Container, IconButton, Menu, MenuItem, Toolbar, Typ
 import MenuIcon from '@mui/icons-material/Menu';
 import HideOnScroll from "./hideAppBar";
 // eslint-disable-next-line
+import base from '../../base.css'
+// eslint-disable-next-line
 import theme from '../../sections/NavBar/navBar.css'
 
 
@@ -38,7 +40,8 @@ function MenuComponent({anchorEl, onClick, onClose, pages}) {
         >
             {pages.map((page) => (
                 <MenuItem key={page} onClick={onClose}>
-                    <Typography textAlign="center">{page}</Typography>
+                    <Typography
+                        fontFamily={"Raleway, serif"} textAlign="center">{page}</Typography>
                 </MenuItem>
             ))}
         </Menu>
@@ -65,6 +68,8 @@ const ResponsiveHideOnScrollAppBar = (props) => {
                     <Container maxWidth="xl">
                         <Toolbar disableGutters>
                             <Typography
+                                fontFamily={"Raleway, serif"}
+                                // fontSize={"larger"}
                                 variant="h2"
                                 noWrap
                                 component="div"
@@ -76,8 +81,9 @@ const ResponsiveHideOnScrollAppBar = (props) => {
                             <MenuComponent onClick={handleOpenNavMenu} anchorEl={anchorElNav}
                                            onClose={handleCloseNavMenu} pages={pages}/>
                             <Typography
-                                variant="h2"
+                                fontFamily={"Raleway, serif"}
                                 noWrap
+                                fontSize={"xxx-large"}
                                 component="div"
                                 sx={{flexGrow: 1, display: {xs: 'flex', md: 'none'}}}
                             >
