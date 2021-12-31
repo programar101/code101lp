@@ -9,10 +9,10 @@ export default function NavBar(props) {
         <div className="navBar">
             <h2>Code 101</h2>
             <div className="navBarItems">
-                <a href='#'>Bootcamp</a>
-                <a href='#'>Din&aacute;mica</a>
-                <a href='#'>Temario</a>
-                <a href='#'>Tallerista</a>
+                <a href='#top'>Bootcamp</a>
+                <a href='#top'>Din&aacute;mica</a>
+                <a href='#top'>Temario</a>
+                <a href='#top'>Tallerista</a>
             </div>
         </div>
     );
