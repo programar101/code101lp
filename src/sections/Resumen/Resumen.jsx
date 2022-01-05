@@ -1,7 +1,6 @@
 import * as React from 'react';
 import './resumen.css';
 
-
 export default function Resumen(props) {
     return (
         <div className="resumen" >

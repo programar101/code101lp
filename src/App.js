@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Resumen from './Resumen/Resumen';
+import Resumen from './sections/Resumen/Resumen';
 import Hero from './sections/Hero/Hero';
 import NavBar from './sections/NavBar/NavBar';
 import Dinamica from './sections/Dinamica/Dinamica';
