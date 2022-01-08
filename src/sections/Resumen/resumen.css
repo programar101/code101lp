@@ -1,12 +1,26 @@
-div{
-    display:inline-block;  
-}
-
 .resumen{
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
     justify-content: space-between;
     padding: 30px 15px;
     background-color: #9e9db8;
     width: auto;
+}
+
+@media (max-width: 900px) {
+    .resumen {
+
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    .resumen-element{
+
+        padding: 10px;
+        
+
+    }
+
+    
 }
