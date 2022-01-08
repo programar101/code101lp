@@ -1,0 +1,87 @@
+.boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.titleBox {
+    text-align: center;
+    font-size: 3vh;
+    padding: 12px 0;
+}
+.imageBox {
+    width: 25vw;
+    height: auto;
+    border-radius: 25px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.nameBox{
+    font-size: 3vh;
+    font-weight: bold;
+    padding: 12px 0;
+    text-align: left;
+}
+
+.descriptionBox{
+    font-size: 2.5vh;
+    width: 25vw;
+    text-align: justify;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.titleBoxSmall {
+    text-align: center;
+    font-size: 3vh;
+    padding: 12px 0;
+    display: inline;
+}
+.imageBoxSmall {
+    width: 20vw;
+    height: auto;
+    border-radius: 25px;
+    margin: 5px 0;
+}
+
+.boxSmall {
+    display: flex;
+    flex-direction: row;
+    padding: 0 24px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+.nameBoxSmall {
+    font-size: 3vh;
+    font-weight: bold;
+    padding: 12px 0;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.descriptionBoxSmall {
+    font-size: 2.5vh;
+    width: 20vw;
+    text-align: justify;
+    padding-left: 12px;
+}
