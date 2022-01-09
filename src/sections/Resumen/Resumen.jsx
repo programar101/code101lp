@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './Resumen.css';
+import './resumen.css';
 
 export default function Resumen(props) {
     return (
