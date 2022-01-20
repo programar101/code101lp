@@ -23,7 +23,8 @@ export default function Dinamica() {
             </div>
 
             <div className="textCenter">
-                <p>COMUNICACIÓN CONSTANTE CON TUS COMPAÑERXS POR CHAT <strong>APRENDÉ AYUDANDO</strong></p>
+                <p>COMUNICACIÓN CONSTANTE CON TUS COMPAÑERXS POR CHAT</p> 
+                <p><strong>APRENDÉ AYUDANDO</strong></p>
                 <h2>NIVEL: PRINCIPIANTE</h2>
             </div>
 

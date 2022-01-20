@@ -1,3 +1,50 @@
+@media only screen and (max-width: 959px){
+
+    .threeColumn{
+        padding-bottom: 24px;
+        text-align: center;
+    }
+    .textCenter{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2vh;
+    }
+
+    .dinamics{
+        padding: 5px;
+        border:solid 2px var(--black);
+        border-radius: 50px;
+        margin: 24px 48px;
+        box-shadow: 0px 1px 10px #b0b0b0;
+        background-image: linear-gradient(20deg, #f0ffed 16.67%, #ffffff 16.67%, #ffffff 33.33%, #fff0fe 33.33%, #fff0fe 50%, #f0ffed 50%, #f0ffed 66.67%, #ffffff 66.67%, #ffffff 83.33%, #fff0fe 83.33%, #fff0fe 100%);
+        background-size: 15.00px 5.46px;
+    
+    }
+
+    .column{
+        padding:0 48px;
+        font-size: 2vh;
+        text-align: center;
+    }
+    
+    .column>p>strong{
+        font-size: 9vh;
+        color: var(--accent);
+    }
+    
+    .textCenter>h2{
+        padding: 24px 0;
+        color: var(--accent);
+        font-weight: 900;
+        font-size: 6vw;
+
+    }
+}
+
+@media only screen and (min-width: 960px){
+
 .dinamics{
     /*background-color: #FFF4E4;*/
     padding: 50px 100px;
@@ -30,7 +77,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 
+.textCenter>h2{
+    margin-top: 24px;
+    /*padding: 2px;
+    box-shadow: 0px 1px 10px #b0b0b0;*/
+    color: var(--accent);
+    font-weight: 900;
+    font-size: 3vw;
 
+}
+}
