@@ -1,4 +1,5 @@
 import * as React from 'react';
+// eslint-disable-next-line
 import theme from './Dinamica.css';
 
 export default function Dinamica() {

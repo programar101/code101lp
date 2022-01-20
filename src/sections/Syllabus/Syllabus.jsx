@@ -1,6 +1,7 @@
 import * as React from 'react';
 // eslint-disable-next-line
 import base from './../../base.css';
+// eslint-disable-next-line
 import theme from './Syllabus.css';
 import ApiIcon from '@mui/icons-material/Api';
 import CustomizedTimeline from "../../components/Timeline/Timeline";
