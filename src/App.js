@@ -11,8 +11,8 @@ export default function App() {
         <div >
             <NavBar/>
             <Hero/>
-            <Dinamica/>
             <Resumen/>
+            <Dinamica/>
             <Syllabus/>
         </div>
     );
