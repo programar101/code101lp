@@ -3,8 +3,7 @@
     justify-content: space-between;
     padding: 5px 15px;
     border-bottom: var(--black);
-    border-top: var(--black);
-    border-style: solid;
+    border-style: none none solid none;
     border-width: 2px;
     flex-wrap: wrap;
     align-items: baseline;
