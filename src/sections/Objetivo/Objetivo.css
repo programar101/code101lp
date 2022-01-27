@@ -1,0 +1,51 @@
+.Objetivo-Container {
+  
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--grey);
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    padding: 30px;
+        
+}
+
+
+.texto-Container{
+   
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    font-size: 3vh;
+    gap:20px;
+    
+    
+   
+}
+
+.linea{
+
+    border-left: 1px solid black;
+    height: 25px;
+    padding: 0;
+  
+}
+
+    
+@media (max-width: 1200px) {
+    .texto-Container {
+
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .linea{
+        height: 0px;
+    }
+}
