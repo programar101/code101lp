@@ -1,0 +1,30 @@
+.resumen{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    padding: 30px 15px;
+    background-color: #9e9db8;
+    width: auto;
+    font-weight: bold;
+    margin: 0;
+    font-family: Raleway, serif;
+    color: var(--black);
+}
+
+@media (max-width: 900px) {
+    .resumen {
+
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    .resumen-element{
+
+        padding: 10px;
+        
+
+    }
+
+    
+}

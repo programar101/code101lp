@@ -4,7 +4,6 @@ import heroImg from './heroImg.png';
 import base from './../../base.css';
 // eslint-disable-next-line
 import theme from './hero.css';
-import {Button} from "@mui/material";
 
 export default function Hero() {
     return (
