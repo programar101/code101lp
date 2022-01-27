@@ -1,5 +1,5 @@
 import * as React from 'react';
-import theme from './Dinamica.css';
+import './Dinamica.css';
 
 export default function Dinamica() {
     return (
