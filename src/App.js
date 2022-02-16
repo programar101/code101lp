@@ -3,6 +3,7 @@ import Hero from './sections/Hero/Hero';
 import NavBar from './sections/NavBar/NavBar';
 import Dinamica from './sections/Dinamica/Dinamica';
 import Syllabus from './sections/Syllabus/Syllabus';
+import Boxes from './sections/Boxes/Boxes';
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
             <Hero/>
             <Dinamica/>
             <Syllabus/>
+            <Boxes/>
         </div>
     );
 }
