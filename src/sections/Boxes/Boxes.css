@@ -55,7 +55,7 @@
 }
 .imageBoxSmall {
     width: 20vw;
-    height: auto;
+    height: fit-content;
     border-radius: 25px;
     margin: 5px 0;
 }
